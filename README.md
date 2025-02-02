@@ -1,7 +1,7 @@
 # DALAS_Project
 Data Science final project
 
-Participants:
+###Participants:
 
 Nesrine Naaman
 

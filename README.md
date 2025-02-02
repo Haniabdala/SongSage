@@ -3,6 +3,6 @@ Data Science final project
 
 ### Participants:
 
-Nesrine Naaman\\
-Hani Abdallah\\
+Nesrine Naaman <br />
+Hani Abdallah <br />
 Nguyen Huong Giang Le

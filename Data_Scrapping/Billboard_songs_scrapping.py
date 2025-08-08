@@ -29,7 +29,6 @@ year = 2010
 
 while year < 2025:
     for week_count in range(1, 53):
-        # Generate the date for the current week
         start_date = datetime.date(year, 1, 1)
         current_date = start_date + datetime.timedelta(weeks=week_count - 1)
         chart_date_str = current_date.strftime("%Y-%m-%d")
@@ -56,9 +55,5 @@ data = {
 }
 df = pd.DataFrame(data)
 
-#Removing duplicates from data frame
 df_no_duplicates = df.drop_duplicates()
 df_no_duplicates.to_csv('songs_data.csv', index=False)  
-
-print("CSV file saved successfully.")
-#df_no_duplicates
